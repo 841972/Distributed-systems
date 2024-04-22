@@ -1,0 +1,268 @@
+(?<host>\S*) (?<clock>{.*})\n(?<event>.*)
+
+1 {"1":1}
+Initialization Complete
+1 {"1":2}
+INFO Sending request
+1 {"1":3}
+INFO Sending request
+1 {"1":4, "2":2}
+INFO Request received
+1 {"1":5, "2":2}
+INFO Sending reply - No deferred
+1 {"1":6, "2":2}
+INFO Sending request
+1 {"1":7, "2":2}
+INFO Sending request
+1 {"1":8, "2":2, "3":2}
+INFO Request received
+1 {"1":9, "2":2, "3":2}
+INFO Sending reply - No deferred
+1 {"1":10, "2":2, "3":2}
+INFO Sending request
+1 {"1":11, "2":2, "3":2, "5":2}
+INFO Request received
+1 {"1":12, "2":2, "3":2, "5":2}
+INFO Sending reply - No deferred
+1 {"1":13, "2":2, "3":2, "5":2, "6":2}
+INFO Request received
+1 {"1":14, "2":2, "3":2, "5":2, "6":2}
+INFO Sending reply - No deferred
+1 {"1":15, "2":2, "3":2, "4":2, "5":2, "6":2}
+INFO Request received
+1 {"1":16, "2":2, "3":2, "4":2, "5":2, "6":2}
+INFO Sending reply - No deferred
+1 {"1":17, "2":5, "3":2, "4":2, "5":2, "6":2}
+INFO Reply received
+1 {"1":18, "2":5, "3":8, "4":2, "5":2, "6":2}
+INFO Reply received
+1 {"1":19, "2":10, "3":8, "4":6, "5":8, "6":18}
+INFO Reply received
+1 {"1":20, "2":12, "3":8, "4":6, "5":18, "6":18}
+INFO Reply received
+1 {"1":21, "2":12, "3":8, "4":16, "5":18, "6":18}
+INFO Reply received
+1 {"1":22, "2":12, "3":8, "4":16, "5":18, "6":18}
+INFO Critic section entered
+
+2 {"2":1}
+Initialization Complete
+2 {"2":2}
+INFO Sending request
+2 {"2":3}
+INFO Sending request
+2 {"1":2, "2":4}
+INFO Request received
+2 {"1":2, "2":5}
+INFO Sending reply - No deferred
+2 {"1":2, "2":6}
+INFO Sending request
+2 {"1":2, "2":7}
+INFO Sending request
+2 {"1":2, "2":8, "6":3}
+INFO Request received
+2 {"1":2, "2":9, "6":3}
+INFO Sending reply - No deferred
+2 {"1":2, "2":10, "6":3}
+INFO Sending request
+2 {"1":2, "2":11, "5":3, "6":3}
+INFO Request received
+2 {"1":2, "2":12, "5":3, "6":3}
+INFO Sending reply - No deferred
+2 {"1":2, "2":13, "3":3, "5":3, "6":3}
+INFO Request received
+2 {"1":2, "2":14, "3":3, "5":3, "6":3}
+INFO Sending reply - No deferred
+2 {"1":2, "2":15, "3":3, "4":3, "5":3, "6":3}
+INFO Request received
+2 {"1":2, "2":16, "3":3, "4":3, "5":3, "6":3}
+INFO Sending reply - No deferred
+2 {"1":5, "2":17, "3":3, "4":3, "5":3, "6":3}
+INFO Reply received
+2 {"1":5, "2":18, "3":3, "4":8, "5":3, "6":3}
+INFO Reply received
+2 {"1":5, "2":19, "3":6, "4":8, "5":6, "6":13}
+INFO Reply received
+2 {"1":5, "2":20, "3":6, "4":8, "5":10, "6":13}
+INFO Reply received
+2 {"1":5, "2":21, "3":10, "4":8, "5":10, "6":13}
+INFO Reply received
+2 {"1":5, "2":22, "3":10, "4":8, "5":10, "6":13}
+INFO Critic section entered
+3 {"3":1}
+Initialization Complete
+3 {"3":2}
+INFO Sending request
+3 {"3":3}
+INFO Sending request
+3 {"3":4}
+INFO Sending request
+3 {"3":5}
+INFO Sending request
+3 {"3":6}
+INFO Sending request
+3 {"1":3, "3":7}
+INFO Request received
+3 {"1":3, "3":8}
+INFO Sending reply - No deferred
+3 {"1":3, "2":3, "3":9}
+INFO Request received
+3 {"1":3, "2":3, "3":10}
+INFO Sending reply - No deferred
+3 {"1":3, "2":3, "3":11, "6":4}
+INFO Request received
+3 {"1":3, "2":3, "3":12, "6":4}
+INFO Sending reply - No deferred
+3 {"1":3, "2":3, "3":13, "5":4, "6":4}
+INFO Request received
+3 {"1":3, "2":3, "3":14, "5":4, "6":4}
+INFO Sending reply - No deferred
+3 {"1":3, "2":3, "3":15, "4":4, "5":4, "6":4}
+INFO Request received
+3 {"1":3, "2":3, "3":16, "4":4, "5":4, "6":4}
+INFO Sending reply - No deferred
+3 {"1":3, "2":9, "3":17, "4":4, "5":6, "6":11}
+INFO Reply received
+3 {"1":9, "2":9, "3":18, "4":4, "5":6, "6":11}
+INFO Reply received
+3 {"1":9, "2":14, "3":19, "4":4, "5":6, "6":11}
+INFO Reply received
+3 {"1":9, "2":14, "3":20, "4":4, "5":12, "6":11}
+INFO Reply received
+3 {"1":9, "2":14, "3":21, "4":10, "5":12, "6":11}
+INFO Reply received
+3 {"1":9, "2":14, "3":22, "4":10, "5":12, "6":11}
+INFO Critic section entered
+4 {"4":1}
+Initialization Complete
+4 {"4":2}
+INFO Sending request
+4 {"4":3}
+INFO Sending request
+4 {"4":4}
+INFO Sending request
+4 {"4":5}
+INFO Sending request
+4 {"4":6}
+INFO Sending request
+4 {"1":2, "2":6, "4":7}
+INFO Request received
+4 {"1":2, "2":6, "4":8}
+INFO Sending reply - No deferred
+4 {"1":2, "2":6, "3":4, "4":9}
+INFO Request received
+4 {"1":2, "2":6, "3":4, "4":10}
+INFO Sending reply - No deferred
+4 {"1":2, "2":6, "3":4, "4":11, "6":5}
+INFO Request received
+4 {"1":2, "2":6, "3":4, "4":12, "6":5}
+INFO Sending reply - No deferred
+4 {"1":2, "2":6, "3":4, "4":13, "5":5, "6":5}
+INFO Request received
+4 {"1":2, "2":6, "3":4, "4":14, "5":5, "6":5}
+INFO Sending reply - No deferred
+4 {"1":6, "2":6, "3":4, "4":15, "5":5, "6":5}
+INFO Request received
+4 {"1":6, "2":6, "3":4, "4":16, "5":5, "6":5}
+INFO Sending reply - No deferred
+4 {"1":6, "2":10, "3":6, "4":17, "5":8, "6":16}
+INFO Reply received
+4 {"1":6, "2":16, "3":6, "4":18, "5":8, "6":16}
+INFO Reply received
+4 {"1":6, "2":16, "3":6, "4":19, "5":14, "6":16}
+INFO Reply received
+4 {"1":16, "2":16, "3":6, "4":20, "5":14, "6":16}
+INFO Reply received
+4 {"1":16, "2":16, "3":16, "4":21, "5":14, "6":16}
+INFO Reply received
+4 {"1":16, "2":16, "3":16, "4":22, "5":14, "6":16}
+INFO Critic section entered
+5 {"5":1}
+Initialization Complete
+5 {"5":2}
+INFO Sending request
+5 {"5":3}
+INFO Sending request
+5 {"5":4}
+INFO Sending request
+5 {"5":5}
+INFO Sending request
+5 {"5":6}
+INFO Sending request
+5 {"5":7, "6":6}
+INFO Request received
+5 {"5":8, "6":6}
+INFO Sending reply - No deferred
+5 {"1":2, "2":7, "5":9, "6":6}
+INFO Request received
+5 {"1":2, "2":7, "5":10, "6":6}
+INFO Sending reply - No deferred
+5 {"1":2, "2":7, "3":5, "5":11, "6":6}
+INFO Request received
+5 {"1":2, "2":7, "3":5, "5":12, "6":6}
+INFO Sending reply - No deferred
+5 {"1":2, "2":7, "3":5, "4":5, "5":13, "6":6}
+INFO Request received
+5 {"1":2, "2":7, "3":5, "4":5, "5":14, "6":6}
+INFO Sending reply - No deferred
+5 {"1":2, "2":7, "3":5, "4":5, "5":15, "6":8}
+INFO Reply received
+5 {"1":2, "2":12, "3":5, "4":5, "5":16, "6":8}
+INFO Reply received
+5 {"1":7, "2":12, "3":5, "4":5, "5":17, "6":8}
+INFO Request received
+5 {"1":7, "2":12, "3":5, "4":5, "5":18, "6":8}
+INFO Sending reply - No deferred
+5 {"1":12, "2":12, "3":5, "4":5, "5":19, "6":8}
+INFO Reply received
+5 {"1":12, "2":12, "3":5, "4":14, "5":20, "6":8}
+INFO Reply received
+5 {"1":12, "2":12, "3":14, "4":14, "5":21, "6":8}
+INFO Reply received
+5 {"1":12, "2":12, "3":14, "4":14, "5":22, "6":8}
+INFO Critic section entered
+
+6 {"6":1}
+Initialization Complete
+6 {"6":2}
+INFO Sending request
+6 {"6":3}
+INFO Sending request
+6 {"6":4}
+INFO Sending request
+6 {"6":5}
+INFO Sending request
+6 {"6":6}
+INFO Sending request
+6 {"5":6, "6":7}
+INFO Request received
+6 {"5":6, "6":8}
+INFO Sending reply - No deferred
+6 {"1":2, "2":9, "5":6, "6":9}
+INFO Reply received
+6 {"1":2, "2":9, "3":6, "5":6, "6":10}
+INFO Request received
+6 {"1":2, "2":9, "3":6, "5":6, "6":11}
+INFO Sending reply - No deferred
+6 {"1":2, "2":10, "3":6, "5":6, "6":12}
+INFO Request received
+6 {"1":2, "2":10, "3":6, "5":6, "6":13}
+INFO Sending reply - No deferred
+6 {"1":2, "2":10, "3":6, "5":8, "6":14}
+INFO Reply received
+6 {"1":2, "2":10, "3":6, "4":6, "5":8, "6":15}
+INFO Request received
+6 {"1":2, "2":10, "3":6, "4":6, "5":8, "6":16}
+INFO Sending reply - No deferred
+6 {"1":10, "2":10, "3":6, "4":6, "5":8, "6":17}
+INFO Request received
+6 {"1":10, "2":10, "3":6, "4":6, "5":8, "6":18}
+INFO Sending reply - No deferred
+6 {"1":14, "2":10, "3":6, "4":6, "5":8, "6":19}
+INFO Reply received
+6 {"1":14, "2":10, "3":6, "4":12, "5":8, "6":20}
+INFO Reply received
+6 {"1":14, "2":10, "3":12, "4":12, "5":8, "6":21}
+INFO Reply received
+6 {"1":14, "2":10, "3":12, "4":12, "5":8, "6":22}
+INFO Critic section entered
